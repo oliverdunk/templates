@@ -1,0 +1,10 @@
+{
+  "name": "simple-chrome-extension",
+  "version": "1.0.0",
+  "description": "Hello World Chrome Extension with JavaScript.",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "*"
+  }
+}
