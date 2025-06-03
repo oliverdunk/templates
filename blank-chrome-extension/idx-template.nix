@@ -1,5 +1,5 @@
 { pkgs, language ? "js", ... }: {
-  packages = if language == "ts" then [ pkgs.nodejs_20 ] else [];
+  packages = [ pkgs.nodejs_20 pkgs.zip ];
   bootstrap = ''
     cp -rf ${./.}/${language} "$WS_NAME"
     chmod -R +w "$WS_NAME"

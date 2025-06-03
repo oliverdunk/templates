@@ -4,6 +4,9 @@
   "description": "Hello World Chrome Extension with JavaScript.",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "zip": "zip extension.zip -r src/*"
+  },
   "devDependencies": {
     "@types/chrome": "*"
   }
