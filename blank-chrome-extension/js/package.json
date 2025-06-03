@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "zip": "zip extension.zip -r src/*"
+    "zip": "cd src && zip ../extension.zip -r ./*"
   },
   "devDependencies": {
     "@types/chrome": "*"

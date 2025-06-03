@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist; mkdir -p dist; cp -R static/* dist/; tsc",
-    "zip": "npm run build; zip extension.zip -r dist/*"
+    "zip": "npm run build; cd dist && zip ../extension.zip -r ./*"
   },
   "author": "",
   "license": "ISC",

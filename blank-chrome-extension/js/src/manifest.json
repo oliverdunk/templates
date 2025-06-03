@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "js": ["content.js"],
-      "matches": ["https://example.com"]
+      "matches": ["https://example.com/*"]
     }
   ]
 }
