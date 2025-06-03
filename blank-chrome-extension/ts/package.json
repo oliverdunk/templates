@@ -1,0 +1,17 @@
+{
+  "name": "simple-chrome-extension",
+  "version": "1.0.0",
+  "description": "Hello World Chrome Extension with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist; mkdir -p dist; cp -R static/* dist/; tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/chrome": "*"
+  }
+}

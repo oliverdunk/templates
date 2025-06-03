@@ -1,0 +1,15 @@
+{
+  "name": "Hello World",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Simple Chrome Extension made in Firebase Studio.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://example.com"]
+    }
+  ]
+}
