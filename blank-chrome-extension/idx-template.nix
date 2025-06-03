@@ -4,6 +4,6 @@
     cp -rf ${./.}/${language} "$WS_NAME"
     chmod -R +w "$WS_NAME"
     mv "$WS_NAME" "$out"
-    ${if language == "ts" then "( cd \$out && npm i --package-lock-only --ignore-scripts )" else ""}
+    ${if language == "ts" then "( cd \$out && npm i --ignore-scripts )" else ""}
   '';
 }
