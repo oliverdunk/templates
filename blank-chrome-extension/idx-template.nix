@@ -1,5 +1,5 @@
 { pkgs, language ? "js", ... }: {
-  packages = [ pkgs.nodejs_20 pkgs.zip ];
+  packages = [ pkgs.nodejs_20 ];
   bootstrap = ''
     cp -rf ${./.}/${language} "$WS_NAME"
     chmod -R +w "$WS_NAME"
