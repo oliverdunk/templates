@@ -21,7 +21,7 @@
         # Example: install JS dependencies from NPM
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
-        default.openFiles = [ "manifest.json" "background.js" "content.js" ];
+        default.openFiles = [ "static/manifest.json" "src/background.ts" "src/content.ts" ];
       };
       # Runs when the workspace is (re)started
       onStart = {
